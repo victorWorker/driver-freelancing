@@ -1,0 +1,20 @@
+{
+    "open": "Open",
+    "shipments": "Shipments",
+    "title": "Title",
+    "collection": "Collection",
+    "delivery": "Delivery",
+    "status": "Status",
+    "image": "Image",
+    "description": "Description",
+    "description_placeholder": "Enter Short Description",
+    "bid_amount": "Bid Amount",
+    "budget": "Budget",
+    "delivery_date": "Delivery Date",
+    "category": "Category",
+    "actions": "Actions",
+    "edit_bid": "Edit Bid",
+    "edit": "Edit",
+    "view_shipment": "View Shipment",
+    "delete": "Delete"
+}

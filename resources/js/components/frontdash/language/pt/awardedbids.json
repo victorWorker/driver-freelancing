@@ -1,0 +1,13 @@
+{
+    "awarded": "Concedido",
+    "bids": "Licitações",
+    "shipment": "Pedido",
+    "proposal": "Proposta",
+    "status": "Status",
+    "bid_amount": "Valor da licitação",
+    "client_budget": "Orçamento do cliente",
+    "expiration": "Vencimento",
+    "awarded_on": "Concedido em",
+    "actions": "Ações",
+    "edit_bid": "Editar licitação"
+}

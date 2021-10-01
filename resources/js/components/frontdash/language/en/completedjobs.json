@@ -1,0 +1,22 @@
+{
+    "completed": "Completed",
+    "jobs": "Jobs",
+    "job": "Job",
+    "bids": "Bids",
+    "shipment": "Shipment",
+    "proposal": "Proposal",
+    "status": "Status",
+    "bid_amount": "Bid Amount",
+    "client_budget": "Client Budget",
+    "completed_on": "Completed On",
+    "rating": "Rating",
+    "edit_bid": "Edit Bid",
+    "actions": "Actions",     
+    "provide_review": "Provide Review",
+    "shipment": "Shipment",
+    "provide_rating_to": "Provide Rating to",
+    "enter_review": "Enter Review",
+    "enter_review_placeholder": "Enter Your Review",
+    "close": "CLOSE",
+    "submit": "SUBMIT"
+}

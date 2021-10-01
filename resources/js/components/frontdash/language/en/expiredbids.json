@@ -1,0 +1,13 @@
+{
+    "expired": "Expired",
+    "bids": "Bids",
+    "shipment": "Shipment",
+    "proposal": "Proposal",
+    "status": "Status",
+    "bid_amount": "Bid Amount",
+    "client_budget": "Client Budget",
+    "expiration": "Expired On",
+    "actions": "Actions",
+    "edit_bid": "Edit Bid",
+    "view_shipment": "View Shipment"
+}

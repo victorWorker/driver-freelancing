@@ -1,0 +1,17 @@
+{
+    "dashboard": "Dashboard",
+    "messages": "Messages",
+    "openShipment": "Open Shipment",
+    "awardedShipment": "Awarded Shipment",
+    "expiredShipment": "Expired Shipment",
+    "completeShipment": "Completed Shipment",
+    "bids": "Bids",
+    "bidsExceeded": "Bids exceeded",
+    "openBids": "Open bids",
+    "expired": "Expired",
+    "invitations": "Invitations",
+    "completed": "Completed",
+    "settings": "Settings",
+    "signOut": "Sign out",
+    "shipments": "Shipments"
+}

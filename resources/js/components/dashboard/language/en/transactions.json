@@ -1,0 +1,13 @@
+{
+    "all": "All",
+    "transactions": "Transactions",
+    "user": "User",
+    "bid_id": "Bid #",
+    "shipment_id": "Shipment #",
+    "type": "Type",
+    "amount": "Amount",
+    "status": "Status",
+    "date": "Transaction Date",
+     "actions": "Actions",
+     "approve": "Approve"
+}

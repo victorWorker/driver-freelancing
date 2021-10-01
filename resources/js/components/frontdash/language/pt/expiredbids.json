@@ -1,0 +1,13 @@
+{
+    "expired": "Expirado",
+    "bids": "Licitações",
+    "shipment": "Pedido",
+    "proposal": "Proposta",
+    "status": "Status",
+    "bid_amount": "Valor da licitação",
+    "client_budget": "Orçamento do cliente",
+    "expiration": "Expirou em",
+    "actions": "Ações",
+    "edit_bid": "Editar licitação",
+    "view_shipment": "Ver pedido"
+}

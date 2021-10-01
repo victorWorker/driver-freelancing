@@ -1,0 +1,22 @@
+{
+    "completed": "Concluído",
+    "jobs": "Trabalhos",
+    "job": "Trabalho",
+    "bids": "Licitações",
+    "shipment": "Pedido",
+    "proposal": "Proposta",
+    "status": "Status",
+    "bid_amount": "Valor da licitação",
+    "client_budget": "Orçamento do cliente",
+    "completed_on": "Completado em",
+    "rating": "Avaliação",
+    "edit_bid": "Editar licitação",
+    "actions": "Ações",
+    "provide_review": "Fornecer Revisão",
+    "shipment": "Pedido",
+    "provide_rating_to": "Fornecer classificação para",
+    "enter_review": "Entrar na revisão",
+    "enter_review_placeholder": "Insira a sua avaliação",
+    "close": "PERTO",
+    "submit": "ENVIAR"
+}

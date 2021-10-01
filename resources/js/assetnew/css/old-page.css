@@ -1,0 +1,473 @@
+@font-face {
+    font-family: GalanoGrotesqueHeavy;
+    src: url('./assets/fonts/galano/GalanoGrotesqueHeavy.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: GalanoGrotesqueBold;
+    src: url('./assets/fonts/galano/GalanoGrotesqueBold.otf');
+    font-weight: medium;
+}
+@font-face {
+    font-family: GalanoGrotesqueLight;
+    src: url('./assets/fonts/galano/GalanoGrotesqueLight.otf');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: GalanoGrotesqueRegular;
+    src: url('./assets/fonts/galano/GalanoGrotesqueRegular.otf');
+    font-weight: regular;
+}
+html{
+    font-size: 15px !important;
+    /* overflow-x:hidden; */
+}
+body{
+    font-family: 'GalanoGrotesqueRegular';
+}
+.container { max-width: 1050px !important; }
+.blackbtn{padding: 10px 15px;border-radius: 1rem;font-family:"GalanoGrotesqueBold";color:white;border:none;margin-top: 1rem;background: #5D5D5D;}
+.yellowbtn{padding: 10px 15px;border-radius: 1rem;font-family:"GalanoGrotesqueBold";color:white;border:none;margin-top: 1rem;background: #FF9224;}
+.lineheight2{line-height: 2rem;}
+.blacktext{ color: #5D5D5D }
+.extracolor{ color: #5D9AD4}
+.secondarycolor{ color: #FF9224}
+.blackbg{ background: #5D5D5D }
+.extrabg{ background: #5D9AD4}
+.extrabgbright{ background: #0F5AA1}
+.secondarybg{ background: #FF9224}
+.primaryboldfont{ font-family: "GalanoGrotesqueBold";}
+.primaryheavyfont{ font-family: "GalanoGrotesqueHeavy" !important;}
+.primarylightfont{ font-family: "GalanoGrotesqueLight";}
+.roundedborderbutton{ background:none;border:1px solid #5D5D5D;border-radius:2rem;padding:10px 15px}
+.uppercase { text-transform: uppercase !important; }
+.logoholder > img{
+    max-width: 18rem;
+    font-family: 'GalanoGrotesqueRegular';
+}
+.topmenu .infoblock{
+    background: #FF9224;
+    color:white;
+    padding:5px 0px;
+}
+.topmenu .infoblock .biginfo{
+    font-size: 1rem;
+    font-family: "GalanoGrotesqueBold";
+}
+.topmenu .infoblock .smallinfo{
+    font-size: 0.7rem;
+    font-family: 'GalanoGrotesqueLight';
+}
+.topmenu .infoblock .fas{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.topmenu .registermodal{
+    background: #FFE1C2;
+    border-radius: 0px 0px 10px 10px;
+    padding:5px 20px;
+    align-items: center;
+}
+.topmenu .registermodal .registertext{
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    color: #5D5D5D;
+    font-family: "GalanoGrotesqueBold";
+}
+.topmenu .registermodal .registertext a{
+    text-decoration: none;
+    color:inherit;
+}
+.topmenu .registermodal .fas{
+    margin-right: 10px;
+    color: #5D5D5D 
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px 15px;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #5D5D5D;
+}
+nav ul li a:hover{
+    font-family: 'GalanoGrotesqueBold';
+    color:#5D5D5D;
+}
+nav ul .active{
+    font-family: 'GalanoGrotesqueBold';
+    border:1px solid #5D5D5D;
+}
+.hero {
+    margin-top: 7rem;
+}
+.hero .heroimgholder{
+    width:65%;
+}
+.hero .heroimgholder img{
+    max-width: 100%;
+}
+.hero .herotextholder{
+    width:35%;
+    margin-bottom: 50px;
+}
+.hero .herotextholder hr{
+    width:35%;
+    height:4px;
+    opacity: 1;
+}
+.hero .herotextholder .quotebtn{
+    padding: 10px 15px;
+    border-radius: 1rem;
+    font-family: "GalanoGrotesqueBold";
+    color:white;
+    border:none;
+    margin-top: 1rem;
+}
+.hero .features{
+    margin-bottom:-35px;
+}
+.hero .feature{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.25);
+    border-radius: 2.9rem;
+    color:#5D5D5D;
+    background:white;
+}
+.hero .feature .fas{
+    font-size: 3.6rem;
+    margin-bottom: 10px;
+}
+.hero .feature .fhead{
+    line-height: 0.9rem;
+}
+.statholder{
+    padding-top: 8rem;
+}
+.statholder .statbox{
+    background: white;
+    width: 22%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 30px 30px 0px 30px;
+}
+.timeline{
+    margin-bottom: 6rem;
+}
+.statholder .statbox h1,
+.timeline .circle h1
+{
+    margin-bottom: 0px;
+    line-height: 2rem;
+    font-size: 2.8rem;
+}
+.timeline .headings{
+    margin: 3rem 0rem;
+}
+.timeline .headings .topheading{
+    line-height: 2rem;
+}
+.timeline .circle{
+    background: #FF9224;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.timeline .circle:nth-child(2n){
+    background: #EEA052 !important;
+}
+.timeline .circles .linethrough{
+    width: 90%;
+    position: absolute;
+    align-self: center;
+    height: 15px;
+    opacity: 1;
+    background: #5D9AD4;
+    z-index: -2;
+}
+.infobox{
+  padding: 0px;
+}
+.infobox .information{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.infobox .information .quotebtn{
+    padding: 10px 15px;
+    border-radius: 1rem;
+    font-family: "GalanoGrotesqueBold";
+    color:white;
+    border:none;
+    margin-top: 1rem;
+}
+.delivery .freedelivery{
+    width:30%;
+}
+.splash{
+    background: url('./images/splash.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:10rem 0rem;
+    
+}
+.logos{
+    border-radius: 1rem;
+    padding:1.5rem 2rem;
+    box-shadow: 0rem 0rem 1rem gray;
+}
+.logos .logo img{
+    max-width: 200px;
+}
+footer{
+    margin-top: 150px;
+}
+.footer{
+    border-radius: 4rem 4rem 0rem 0rem;
+    border-top: 10px solid #FF9224;
+}
+.footer .yellowlogo{
+    position: absolute;
+    max-width: 15rem;
+    top:-30px;
+}
+.footer h2{
+    font-family: "GalanoGrotesqueLight";
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 0px;
+}
+.footer h1{
+    font-family: "GalanoGrotesqueBold";
+    font-size: 2rem;
+}
+.footer .social .fas,
+.footer .social .fab{
+    font-size: 2rem;
+    padding:10px;
+    color:#999;
+}
+.footer hr{
+    width: 20%;
+    height: 6px;
+    background:white;
+}
+.footer .links ul li{
+    list-style: none;
+}
+.footer .links ul li a{
+    text-decoration: none;
+    font-family: "GalanoGrotesqueLight";
+    color:white;
+}
+.copyright{
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding:5px 0px;
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    left:0;
+}
+.copyright p{
+    font-size: 0.8rem;
+}
+
+/* Modal Styles */
+.modal-body .headings h1{
+    font-family: "GalanoGrotesqueBold";
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+.modal-body .headings h2{
+    font-family: "GalanoGrotesqueLight";
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+.modal-body .inputingroup{
+    /* border:1px solid #dbdada; */
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.15);
+    padding: 5px 10px 5px 20px;
+    background: white;
+}
+.modal-body .inputingroup input{
+    border:none;
+}
+.modal-body .inputingroup textarea{
+    border:none;
+}
+.modal-body .inputingroup input:focus{ outline: none !important;}
+.modal-body .inputingroup input::placeholder, .modal-body .inputingroup textarea::placeholder { 
+    color: #ababab;
+    font-size: 0.85rem;
+}
+.modal-body .inputingroup textarea:focus{ outline: none !important;}
+.modal-body .inputingroup label{
+    font-family: "GalanoGrotesqueBold";
+    color:#5D5D5D;
+}
+.modal-content{
+    border-radius:4rem;
+    
+}
+.modal-body{
+    background:url('./images/modal.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-left: 60px;
+
+}
+/* Modal Styles */
+
+/***** Find Page *******/
+.find .paddedcontainer{
+    padding-top:5rem;
+    padding-bottom: 4rem;
+}
+.searchinfo .fas{
+    font-size: 3rem;
+    color:white;
+}
+.searchinfo h2{
+    color:white;
+    font-weight: 100;
+    line-height: 2rem;
+}
+.inputs .inputcontainer{
+    border-radius: 1rem;
+    padding: 5px 20px;
+    width:48%;
+    max-height: 3.5rem;
+    font-size: 0.9rem;
+}
+.inputs .inputcontainer > input{
+    border:none;
+}
+.inputs .inputcontainer > input:focus{
+    outline:none;
+}
+.find .findbtn{
+    height: 3.5rem;
+    border-radius: 1rem;
+}
+.listingcontainer .listimg{
+    border-radius: 10rem;
+}
+.listingcontainer .information h1{
+    font-size: 1.5rem;
+}
+.filter .drop{
+    border:1px solid #eee;
+    padding: 12px 12px !important;
+}
+.filter .drop li{
+    list-style: none;
+}
+.filter .drop a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:gray;
+}
+.filter .drop .fas{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    border:2px solid #eee;
+    margin-right: 10px;
+}
+/***** Find Page *******/
+
+
+/***** Listing Page *******/
+.listing-hero{
+    width:200px;
+    border-radius: 8rem;
+    border: 5px solid white;
+}
+.pac-container{
+    z-index: 10000 !important;
+}
+/***** Listing Page *******/
+@media (max-width: 576px) {
+    html,body{
+        overflow-x: hidden !important;
+        scroll-behavior:auto !important;
+        height:100%;
+        width:100%;
+    }
+    .modal{
+        z-index:9999;
+    }
+    .hero{
+        margin-top:6rem !important;
+    }
+    .hero > .row{
+        display:flex;
+        flex-direction: column;
+    }
+    .mobilepadding{
+        padding:0px 30px 0px 30px !important;
+    }
+    .heroimgholder,
+    .herotextholder{
+        width:100% !important
+    }
+    .features{
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    .features .feature{
+        width: 45% !important;
+        margin-bottom: 20px;
+    }
+    .statholder > .row{
+        justify-content: center !important;
+    }
+    .statholder .statbox{
+        border-radius: 2rem 2rem 2rem 0rem !important; 
+        width:65%;
+        margin-bottom: 20px;
+        padding: 30px 30px 21px 30px !important;
+    }
+    .circles{
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+    .circles .circle{
+        width:40vw !important;
+        margin-bottom:15px;
+        height:40vw;
+    }
+    .delivery .freedelivery{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        border:none !important;
+    }
+    .swal2-container{
+        z-index:999999 !important;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "all": "All",
+    "users": "Users",
+    "transporters": "Transporters",
+    "approve": "Approve",
+    "ban": "Ban",
+    "view": "View",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "state": "State",
+    "status": "Status",
+    "actions": "Actions",
+    "details": "Details",
+    "user": "User",
+    "addbadges":"Add Badge",
+    "add":"Add",
+    "all_transporter_with_no_documents":"All transporters with no documents",
+    "email_status":"Cancel email status",
+    "email_send":"Email send",
+    "email_not_send":"Email not send",
+    "send_email_button":"Send Email To cancel Account"
+}

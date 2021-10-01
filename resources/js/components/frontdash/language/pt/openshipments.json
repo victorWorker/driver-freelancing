@@ -1,0 +1,20 @@
+{
+    "open": "Abrir",
+    "shipments": "Pedidos",
+    "title": "Título",
+    "collection": "Coleção",
+    "delivery": "Entrega",
+    "status": "Status",
+    "image": "Imagem",
+    "description": "Descrição",
+    "description_placeholder": "Insira uma breve descrição",
+    "bid_amount": "Valor da licitação",
+    "budget": "Orçamento",
+    "delivery_date": "Data de entrega",
+    "category": "Categoria",
+    "actions": "Ações",
+    "edit_bid": "Editar licitação",
+    "edit": "Editar",
+    "view_shipment": "Ver Pedido",
+    "delete": "Excluir"
+}

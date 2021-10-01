@@ -1,0 +1,13 @@
+{
+    "awarded": "Awarded",
+    "bids": "Bids",
+    "shipment": "Shipment",
+    "proposal": "Proposal",
+    "status": "Status",
+    "bid_amount": "Bid Amount",
+    "client_budget": "Client Budget",
+    "expiration": "Expiration",
+    "awarded_on": "Awarded On",
+    "actions": "Actions",
+    "edit_bid": "Edit Bid"
+}

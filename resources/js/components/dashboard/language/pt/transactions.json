@@ -1,0 +1,13 @@
+{
+    "all": "tudo",
+    "transactions": "transações",
+    "user": "do utilizador",
+    "bid_id": "oferta #",
+    "shipment_id": "envio #",
+    "type": "Modelo",
+    "amount": "Quantia",
+    "status": "Status",
+    "date": "Data de Transação",
+     "actions": "Actions",
+     "approve": "Aprovar"
+}

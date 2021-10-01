@@ -1,0 +1,14 @@
+{
+    "expired": "Expired",
+    "shipments": "Shipments",
+    "title": "Title",
+    "collection": "Collection",
+    "delivery": "Delivery",
+    "status": "Status",
+    "bid_amount": "Bid Amount",
+    "budget": "Budget",
+    "delivery_date": "Delivery Date",
+    "category": "Category",
+    "actions": "Actions",
+    "edit_bid": "Edit Bid"
+}

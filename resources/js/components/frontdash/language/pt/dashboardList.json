@@ -1,0 +1,17 @@
+{
+    "dashboard": "Painel",
+    "messages": "Mensagens",
+    "openShipment": "Remessas Abertas",
+    "awardedShipment": "Remessas Concedidas",
+    "expiredShipment": "Remessas Expiradas",
+    "completeShipment": "Remessas Concluídas",
+    "bids": "Licitações",
+    "bidsExceeded": "Licitações ultrapassada",
+    "openBids": "lances abertos",
+    "expired": "Expirada",
+    "invitations": "Convites",
+    "completed": "Completada",
+    "settings": "Definições",
+    "signOut": "Sair",
+    "shipments": "Remessas"
+}

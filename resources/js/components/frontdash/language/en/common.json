@@ -1,0 +1,11 @@
+{
+    "name":"Name",
+    "phone":"Phone",
+    "bio":"Your Bio",
+    "password":"New Password",
+    "savedetails":"Save Details",
+    "help":"Help",
+    "pt":"Portugese",
+    "en":"English",
+    "profile":"My Profile"
+}

@@ -1,0 +1,20 @@
+{
+    "all": "All",
+    "shipments": "Shipments",
+    "shipment": "Shipment",
+    "title": "Title",
+    "collection": "Collection",
+    "delivery": "Delivery",
+    "distance": "Distance",
+    "delivery_date": "Delivery Date",
+    "status": "Status",
+    "actions": "Actions",
+    "view": "View",
+    "block": "Block",
+    "details": "Details",
+    "bids": "Bids",
+    "suspend": "Suspend",
+    "activate": "Activate",
+    "edit": "Edit",
+    "edit_shipment": "Edit Shipment"
+}

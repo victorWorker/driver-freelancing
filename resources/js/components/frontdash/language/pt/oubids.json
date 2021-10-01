@@ -1,0 +1,20 @@
+{
+    "oubids": "Licitações superadas",
+    "open": "Abrir",
+    "bids": "Licitações",
+    "number": "#",
+    "request": "Pedido",
+    "your_bid": "A sua licitação",
+    "lowest_bid": "Licitação mais baixa no trabalho",
+    "proposal": "Proposta",
+    "status": "Status",
+    "bid_amount": "Valor da licitação",
+    "client_budget": "Orçamento do cliente",
+    "expiration": "Vencimento",
+    "actions": "Ações",
+    "edit_bid": "Editar licitação",
+    "edit": "Editar",
+    "promote": "Promover",
+    "delete": "Excluir",
+    "update_bid": "ATUALIZAR LICITAÇÃO"
+}

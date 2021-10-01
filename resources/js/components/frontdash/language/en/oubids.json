@@ -1,0 +1,21 @@
+{
+    "oubids": "Oubids",
+    "open": "Open",
+    "bids": "Bids",
+    "number": "#",
+    "request": "Request",
+    "shipment": "Shipment",
+    "your_bid": "Your Bid",
+    "lowest_bid": "Lowest bid on job",
+    "proposal": "Proposal",
+    "status": "Status",
+    "bid_amount": "Bid Amount",
+    "client_budget": "Client Budget",
+    "expiration": "Expiration",
+    "actions": "Actions",
+    "edit_bid": "Edit Bid",
+    "edit": "Edit",
+    "promote": "Promote",
+    "delete": "Delete",
+    "update_bid": "UPDATE BID"
+}

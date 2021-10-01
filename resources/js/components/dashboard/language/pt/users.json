@@ -1,0 +1,23 @@
+{
+    "all": "Todos",
+    "users": "Clientes",
+    "transporters": "Transportadores",
+    "approve": "Aprovar",
+    "ban": "Banir",
+    "view": "Ver",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telemóvel",
+    "state": "Estado",
+    "status": "Status",
+    "actions": "Ações",
+    "details": "Detalhes",
+    "user": "Utilizador",
+    "addbadges": "Adicionar crachá",
+    "add": "Adicionar",
+    "all_transporter_with_no_documents": "Todos os transportadores sem documentos",
+    "email_status": "Cancelar status de e-mail",
+    "email_send": "Enviar e-mail",
+    "email_not_send":"Email não enviado",
+    "send_email_button":"Enviar e-mail para cancelar a conta"
+}

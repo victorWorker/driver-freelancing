@@ -1,0 +1,18 @@
+export default [
+    { text: "Choose Transport", value: null },
+    { text: "Mobília", value: 1 },
+    { text: "Itens frágeis", value: 3 },
+    { text: "Mudanças pessoais", value: 4 },
+    { text: "Carros", value: 18 },
+    { text: "Barcos", value: 19 },
+    { text: "Motas", value: 20 },
+    { text: "Mobília", value: 1 },
+    { text: "Animais", value: 21 },
+    { text: "Partes de automóve", value: 22 },
+    { text: "Caixas", value: 23 },
+    { text: "Arte", value: 24 },
+    { text: "Outros", value: 25 },
+    { text: "IKEA Usados - Norte", value: 26 },
+    { text: "IKEA Usados - Centro", value: 27 },
+    { text: "IKEA Usados - Sul", value: 28 },
+]

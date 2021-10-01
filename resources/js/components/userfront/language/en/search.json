@@ -1,0 +1,21 @@
+{
+    "search" : "Search",
+    "shipments": "Shipments",
+    "pickup": "Pickup",
+    "collection": "Collection",
+    "pickup_placeholder": "Enter Collection Location",
+    "delivery": "Delivery",
+    "delivery_placeholder": "Enter Delivery Location",
+    "find_button": "FIND SHIPMENTS",
+    "filters": "FILTERS",
+    "categories": "CATEGORIES",
+    "vehicles_boats_haulage": "Vehicles,Boats,Haulage",
+    "weight": "WEIGHT",
+    "all_weights": "All Weights",
+    "location_type": "LOCATION TYPE",
+    "all_location_types": "All Location Types",
+    "displaying": "Displaying",
+    "of": "of",
+    "page": "PAGE",
+    "total_accepted_bids":"Total accepted bids"
+}
