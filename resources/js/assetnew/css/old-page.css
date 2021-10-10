@@ -27,6 +27,7 @@ body{
 }
 .container { max-width: 1050px !important; }
 .blackbtn{padding: 10px 15px;border-radius: 1rem;font-family:"GalanoGrotesqueBold";color:white;border:none;margin-top: 1rem;background: #5D5D5D;}
+.bluebtn{padding: 10px 15px;border-radius: 1rem;font-family:"GalanoGrotesqueBold";color:white;border:none;margin-top: 1rem;background: #0F5AA1;}
 .yellowbtn{padding: 10px 15px;border-radius: 1rem;font-family:"GalanoGrotesqueBold";color:white;border:none;margin-top: 1rem;background: #FF9224;}
 .lineheight2{line-height: 2rem;}
 .blacktext{ color: #5D5D5D }
