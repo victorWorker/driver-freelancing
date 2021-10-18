@@ -52,15 +52,34 @@
                             <div class="step2"  v-if="formStep == 1">
                                 <div class="inputingroup">
                                     <label class="uppercase">{{ language.vehicle }}</label>
-                                    <!-- <input type="text" :placeholder="language.vehicle"> -->
-                                    <select name="vehicle" v-model="driverData.vehicle" id="">
-                                        <option value="">Carrinha gigante</option>
-                                        <option value="">Carrinha grande</option>
-                                        <option value="">van média</option>
-                                        <option value="">Van pequena</option>
-                                        <option value="">carro</option>
-                                        <option value="">motocicleta</option>
-                                    </select>
+                                    <div class="row">
+                                        <div class="vihicle-choose">
+                                            <input type="radio" name="vantype" v-model="driverData.vehicle" id="biggervan" value="biggervan">
+                                            <label for="biggervan" class="ms-2"><i class="fas fa-truck-moving"></i></label>
+                                        </div> 
+                                        <div class="vihicle-choose">
+                                            <input type="radio" name="vantype" v-model="driverData.vehicle" id="bigvan" value="biggervan">
+                                            <label for="bigvan" class="ms-2"><i class="fas fa-truck"></i></label>
+                                        </div> 
+                                        <div class="vihicle-choose">
+                                            <input type="radio" name="vantype" v-model="driverData.vehicle" id="mediavan" value="biggervan">
+                                            <label for="mediavan" class="ms-2"><i class="fas fa-shuttle-van"></i></label>
+                                        </div> 
+                                    </div>
+                                    <div class="row">
+                                        <div class="vihicle-choose">
+                                            <input type="radio" name="vantype" v-model="driverData.vehicle" id="peqvan" value="biggervan">
+                                            <label for="peqvan" class="ms-2"><i class="fas fa-truck-pickup"></i></label>
+                                        </div> 
+                                        <div class="vihicle-choose">
+                                            <input type="radio" name="vantype" v-model="driverData.vehicle" id="car" value="biggervan">
+                                            <label for="car" class="ms-2"><i class="fas fa-car-side"></i></label>
+                                        </div> 
+                                        <div class="vihicle-choose">
+                                            <input type="radio" name="vantype" v-model="driverData.vehicle" id="motor" value="biggervan">
+                                            <label for="motor" class="ms-2"><i class="fas fa-motorcycle"></i></label>
+                                        </div> 
+                                    </div>
                                 </div>
                                 <div class="inputingroup">
                                     <label class="uppercase">{{ language.vehiclePrice }}</label>
@@ -68,7 +87,14 @@
                                 </div>
                                 <div class="inputingroup">
                                     <label class="uppercase">{{ language.serviceLocation }}</label>
-                                    <input type="text" v-model="driverData.serviceLocation" :placeholder="language.serviceLocation">
+                                    <!-- <input type="text" v-model="driverData.serviceLocation" :placeholder="language.serviceLocation"> -->
+                                    <div class="map_view">
+                                        <GmapMap :center="{lat: 59.33, lng: 18.26}" :zoom="5" ref="workmap" height="300">
+                                            <gmap-circle :editable="true" :center="{lat: 59.33, lng: 18.26}" :radius='10' :draggable="true">
+                                            </gmap-circle>
+                                        </GmapMap>
+                                    </div>
+                                    
                                 </div>
                                 <div class="inputingroup">
                                     <label class="uppercase">{{ language.serviceRate }}(USD/KM)</label>
@@ -126,7 +152,7 @@
                                 </div>
                                 <div class="inputingroup">
                                     <label class="uppercase">{{ language.elevatorable }}</label>
-                                    <input type="checkbox" v-model="driverData.elevatorable" :placeholder="language.elevatorable">
+                                    <input type="text" v-model="driverData.elevatorable" :placeholder="language.elevatorable">
                                 </div>
                                 <div class="inputingroup">
                                     <label class="uppercase">{{ language.elevatorprice }}</label>
@@ -205,7 +231,7 @@ export default {
               urgentworkAble: '',
               urgentworkPrice: '',
               unwrapedjobable: false,
-              elevatorable: false,
+              elevatorable: '',
               elevatorprice: '',
               bidText: ''
             },
@@ -229,7 +255,8 @@ export default {
         ...mapGetters('user', ['errors']),
     },
     mounted() {
-        this.modal = new bootstrap.Modal(this.$refs.vuemodal)
+        this.modal = new bootstrap.Modal(this.$refs.vuemodal);
+        console.log(this.$refs);
     },
     methods: {  
         ...mapActions('user', ['addTransporter']),
@@ -251,6 +278,15 @@ export default {
             if(this.formStep < this.finalStep){
                 this.formStep = this.formStep + 1;
             }
+            if(this.formStep == 1){
+                console.log(this.$refs.workmap);
+                this.$nextTick(() => {
+                    console.log('this is next tic');
+                    // console.log(this.$refs.workmap.$mapObject.data.setControls(['Polygon']));
+                    // setTimeout(function() {this.$refs.workmap.$mapObject.data.setControls(['Polygon']);}, 3000);
+                })
+                // setTimeout(function() {this.$refs.workmap.$mapObject.data.setControls(['Polygon']);}, 3000);
+            }
         },
         prevStep(){
             this.formStep = this.formStep - 1;
@@ -267,6 +303,19 @@ export default {
 </script>
 
 <style scoped>
+.vihicle-choose{
+    font-size: 45px;
+    width: auto;
+    margin: auto;
+}
+.map_view{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+.vue-map-container{
+    height: 40vh;
+}
 @media (max-width: 576px) {
     .modal-body{
         margin-left:30px;

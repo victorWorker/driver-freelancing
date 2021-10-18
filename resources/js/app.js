@@ -20,7 +20,7 @@ Vue.use(VueScreenSize)
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyBJ4J2G7btoA72YPSJ2MwBDQde0PTGIjYQ',
-    libraries: 'places', // This is required if you use the Autocomplete plugin
+    libraries: 'places,drawing,visualization', // This is required if you use the Autocomplete plugin
     // OR: libraries: 'places,drawing'
     // OR: libraries: 'places,drawing,visualization'
     // (as you require)
